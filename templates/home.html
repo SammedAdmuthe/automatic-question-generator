@@ -1,6 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <title>Test Application</title>
+    <head>
+        <title>Test Application</title>
+        <style>
+            .loader {
+                border: 16px solid #f3f3f3;
+                border-radius: 50%;
+                border-top: 16px solid #3498db;
+                width: 25px;
+                height: 25px;
+                -webkit-animation: spin 2s linear infinite; /* Safari */
+                animation: spin 2s linear infinite;
+                }
+
+                @keyframes spin {
+                    0% { transform: rotate(0deg); }
+                    100% { transform: rotate(360deg); }
+                }
+
+        </style>
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LRSBGK4Q35"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-LRSBGK4Q35');
+        </script>
+
+        <link rel="stylesheet" href="/static/CACHE/css/27586c94a74c.css" type="text/css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdn.datacamp.com/dcl-react.js.gz"></script>
+
+        <script>
+            // Initialize DataCamp code editor
+        //     document.addEventListener('DOMContentLoaded', function() {
+        //       // Access the sample-code block
+        //         const exerciseElement = document.querySelector('div[data-datacamp-exercise]');
+        //         const sampleCodeBlock = exerciseElement.querySelector('code[data-type="sample-code"]');
+
+        //         // Get the content of the sample-code block
+        //         const sampleCode = sampleCodeBlock.textContent;
+
+        //         console.log(sampleCode);
+        // });
+        
+          </script>
+        <script>
+            function onChangeDropdown() {
+                var dropdown = document.getElementById("question_type");
+                var dataset_link =document.getElementById("dataset_link");
+
+                if(dropdown.value == "Coding")
+                {
+                    dataset_link.style.visibility = "visible";
+                }
+                else{
+                    dataset_link.style.visibility = "hidden";
+                }
+            }
+            function getResult(){
+                var loading = document.getElementById("loading_gif");
+                // var code_area = document.getElementById("snip").value
+
+                var text_area = document.getElementById("gpt_response");
+                var R_IDE = document.getElementById("R_ide");
+                var question_type = document.getElementById("question_type").value;
+                var user_input = document.getElementById("input_text_for_gpt").value;
+                var dataset_link = document.getElementById("input_text_for_dataset").value;
+                dataset_link = (dataset_link == '' || dataset_link == undefined?"No result":dataset_link);
+                loading.style.visibility ="visible";
+                $.ajax({
+                    type:"GET",
+                    url:`/chat/?user_input=${user_input}&question_type=${question_type}&dataset_link=${dataset_link}`,
+                    success: function(data){
+                        loading.style.visibility="hidden";
+                        text_area.value = data;
+                        R_IDE.value = data;
+                        if(question_type == "Coding") {
+                            code_area = data;
+                        }
+                        return data;
+                    }
+                });
+                // text_area.value = "Fetching Data";
+            }
+
+        </script>
+
+    </head>
 
     <body>
         <form action="/generate/" method="get">
@@ -8,6 +96,94 @@
             <input type = "text" name = "nvalue"><br>
             <input type = "submit" name = "Generate"><br>
         </form>
+        <br>
+        <span>-----Ask GPT-----</span><br>
+        <br>
+        <br>
+        <span>Enter your question:</span>
+        <input type="text" id="input_text_for_gpt">
+        <select id = "question_type" onchange="onChangeDropdown()">
+            <option id = "coding_question_type">Coding</option>
+            <option id = "concept_question_type">Concept</option>
+        </select>
+
+        <br>
+        <br>
+            <div id="dataset_link">
+                <span>Dataset Link</span>
+                <input type="text" id="input_text_for_dataset">
+            </div>
+        <br>
+        <input type="submit" id="submit_query" value="ASK GPT" onclick="getResult()"><br>
+            <div class="loader" style="visibility: hidden;" id = "loading_gif"></div>
+
+        
+        <br>
+        
+        <textarea id="gpt_response" cols="100" rows="25"></textarea>
+<!--   
+
+        <div class="ui fluid grid container">
+            <div class="sixteen wide column">
+              <div class="ui form">
+                <div class="field">
+                  <textarea class="fullwidth mousetrap snip-input" id="snip" rows="10" cols="80" style="font-size: 13px; font-family: Menlo,Monaco,Consolas,Courier New,monospace !important" data-tag="snrub">print("Hello, world!")</textarea>
+                </div>
+      
+                <div class="ui stackable two column grid">
+                  <div class="column">
+                    <button class="ui huge green fluid button snip-run" data-tag="snrub" type="button" id="run">Run  (Cmd-Enter)</button>
+                  </div>
+      
+                  <div class="column">
+                    <p>You should assume that any scripts or data that you put into this service are public. <a href="/snippets/privacy" target="_blank" rel="noopener">Privacy policy.</a></p>
+                    <p><b>Computation provided by <a href="https://rdrr.io">rdrr.io</a>: hosting documentation for all R packages.</b></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="sixteen wide column">
+              <div class="ui icon warning message snip-spinner hidden" data-tag="snrub" style="display: none;">
+                <i class="notched circle loading icon"></i>
+                <div class="content">
+                  <div class="header snip-status" data-tag="snrub">Running...</div>
+                </div>
+              </div>
+      
+              <pre class="highlight hidden snip-output pre-success" data-tag="snrub" style="">[1] "Hello, world!"
+      </pre>
+              <div class="snip-images" data-tag="snrub"></div>
+            </div>
+          </div>
+
+
+          <script type="text/javascript" src="/static/CACHE/js/19aedbecbc13.js"></script>
+          <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic">
+          <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Oswald:400,300,700"> -->
+
+    <!-- <iframe width='100%' height='300' src='https://rdrr.io/snippets/embed/?code=print(%22Hello%2C%20world!%22)' frameborder='0' id ="frame_id"></iframe> -->
+
+
+
+
+
+
+
+        <div data-datacamp-exercise data-lang="r" data-height="500" id="r-exercise">
+            <code data-type="pre-exercise-code"># no pec</code>
+            <div id="temp"><p>here</p></div>
+            <code data-type="sample-code" id="R_ide">
+                
+            </code>
+            <code data-type="solution">
+              
+            </code>
+            <code data-type="sct">
+              test_output_contains(&quot;18&quot;, incorrect_msg = &quot;Make sure to add `6 + 12` on a new line. Do not start the line with a `#`, otherwise your R code is not executed!&quot;)
+              success_msg(&quot;Awesome! See how the console shows the result of the R code you submitted? Now that you&#39;re familiar with the interface, let&#39;s get down to R business!&quot;)
+            </code>
+          </div>
+
     </body>
-    
 </html>

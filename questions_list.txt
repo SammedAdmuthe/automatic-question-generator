@@ -1,0 +1,146 @@
+What is the mean floor when host_name = Muslum and name = Very clean, quiet bedroom available
+What is the mean floor when room_type = Entire home/apt and neighbourhood_group = Manhattan
+What is the mean price when room_type = Entire home/apt and neighbourhood_group = Queens
+What is the mean floor when host_name = Ana Maria and name = Bright and spacious room two blocks from park!
+What is the min price when name = Gorgeous Modern Downtown Condo with Stunning Views and room_type = Private room
+What is the min price when name = Sun Drenched Gramercy/East Village! and room_type = Private room
+What is the min floor when neighbourhood = Crown Heights and neighbourhood_group = Manhattan
+What is the min price when neighbourhood_group = Brooklyn and room_type = Entire home/apt
+What is the max price when name = "Home sweet Home :) " and neighbourhood_group = Brooklyn
+What is the mean floor when neighbourhood_group = Brooklyn and room_type = Private room
+What is the mean price when neighbourhood_group = Brooklyn and neighbourhood = Murray Hill
+What is the min price when name = Private room w/ queen bed + rooftop and host_name = R, J
+What is the max floor when room_type = Entire home/apt and neighbourhood_group = Brooklyn
+What is the max floor when neighbourhood_group = Brooklyn and room_type = Private room
+What is the max floor when neighbourhood_group = Queens and host_name = Henry Norman
+What is the mean floor when room_type = Entire home/apt and host_name = Jocelyn
+What is the mean price when neighbourhood = Williamsburg and room_type = Entire home/apt
+What is the max price when neighbourhood_group = Manhattan and name = Cozy Upper East Side Studio Apartment
+What is the min price when neighbourhood = Richmond Hill and room_type = Private room
+What is the mean price when host_name = Laura and room_type = Entire home/apt
+What is the mean floor when neighbourhood = Williamsburg and host_name = Drake
+What is the max floor when neighbourhood = Prospect Heights and host_name = Grand
+What is the min price when host_name = George and neighbourhood_group = Manhattan
+What is the mean price when neighbourhood = Harlem and room_type = Entire home/apt
+What is the max floor when neighbourhood = Carroll Gardens and neighbourhood_group = Brooklyn
+What is the max price when name = Brooklyn At Its Best, Too! and neighbourhood_group = Manhattan
+What is the mean price when neighbourhood_group = Manhattan and name = Comfortable an Nice Bedroom to relax
+What is the min floor when host_name = Deanna and neighbourhood_group = Manhattan
+What is the mean floor when room_type = Entire home/apt and name = Private Room in a Huge Apartment (East Village)
+What is the mean price when name = Sunny, Relaxing Oasis in Williamsburg and neighbourhood_group = Manhattan
+What is the mean price when neighbourhood = Prospect Heights and host_name = Justin
+What is the max price when neighbourhood_group = Brooklyn and room_type = Private room
+What is the max floor when room_type = Private room and name = Bright and Spacious Apartment in Bay Ridge
+What is the min price when host_name = Carmen and room_type = Private room
+What is the mean price when name = BIG room in fun loft – heart of NYC and neighbourhood = Fort Greene
+What is the max floor when room_type = Private room and neighbourhood_group = Brooklyn
+What is the mean floor when name = Modern Studio on Upper East Side and host_name = Jenn
+What is the min price when room_type = Entire home/apt and host_name = Keri
+What is the max price when room_type = Private room and name = Beautiful home close to CentralPark
+What is the max price when host_name = Mark and neighbourhood = Harlem
+What is the mean floor when neighbourhood_group = Manhattan and name = HUGE room in Sunset Park with AC
+What is the mean price when host_name = Beatriz and neighbourhood_group = Brooklyn
+What is the mean price when neighbourhood = East Flatbush and room_type = Entire home/apt
+What is the mean floor when neighbourhood_group = Manhattan and host_name = Emiliano
+What is the max floor when name = Cozy LIC Loft-Style Apt- Minutes to Manhattan and neighbourhood = Williamsburg
+What is the mean price when host_name = Jay and neighbourhood_group = Queens
+What is the max floor when neighbourhood_group = Brooklyn and name = 1BR w/roof: Williamsburg, Brooklyn
+What is the min price when room_type = Entire home/apt and neighbourhood = Chelsea
+What is the max floor when neighbourhood_group = Manhattan and host_name = Jade
+What is the min floor when name = Brooklyn Heights garden window view cozy studio and host_name = Diana
+What is the min floor when name = Bedroom right in Chelsea! and room_type = Private room
+What is the mean price when neighbourhood = East Harlem and neighbourhood_group = Brooklyn
+What is the min floor when neighbourhood_group = Queens and name = 20-25 minutes to downtown NYC/30-40 to midtown
+What is the mean price when neighbourhood_group = Brooklyn and room_type = Entire home/apt
+What is the min price when host_name = Dillon and neighbourhood_group = Brooklyn
+What is the min price when room_type = Entire home/apt and host_name = Ameera
+What is the mean price when host_name = Marianna and neighbourhood_group = Brooklyn
+What is the max floor when neighbourhood = Columbia St and host_name = Alex
+What is the max floor when name = Peaceful, Upper East Side Studio and room_type = Entire home/apt
+What is the min price when neighbourhood = Greenpoint and room_type = Entire home/apt
+What is the max floor when host_name = Sonia and name = Shared apt by Theater District, Broadway
+What is the max floor when neighbourhood = Chelsea and name = Sunny Apt in Brooklyn-Close to Manhattan
+What is the max floor when neighbourhood = Little Neck and neighbourhood_group = Queens
+What is the max price when neighbourhood = Williamsburg and room_type = Private room
+What is the min floor when host_name = Eric and name = Private Room With GREAT Location
+What is the mean price when neighbourhood_group = Brooklyn and host_name = Scott
+What is the min price when neighbourhood_group = Brooklyn and host_name = Cathy
+What is the max floor when neighbourhood_group = Manhattan and neighbourhood = Greenpoint
+What is the max price when neighbourhood = Upper West Side and neighbourhood_group = Brooklyn
+What is the mean floor when name = Cozy easy village apartment in central location and neighbourhood_group = Brooklyn
+What is the min floor when name = Modern Private Bedroom in Stuyvesant Madison 3L-5 and neighbourhood = Astoria
+What is the min price when room_type = Private room and name = Homey townhouse apartment
+What is the min floor when host_name = Jayoung and neighbourhood = Ditmars Steinway
+What is the mean price when name = Manhattan room 3 NYC 127 st and convent ave and neighbourhood_group = Brooklyn
+What is the min floor when room_type = Entire home/apt and name = NEW Wonderful private room near Two Bridges II
+What is the min price when host_name = Michelle and room_type = Private room
+What is the mean floor when name = Beautiful East Village Studio and neighbourhood_group = Brooklyn
+What is the min price when host_name = Nick and room_type = Private room
+What is the mean price when neighbourhood_group = Manhattan and room_type = Entire home/apt
+What is the mean price when neighbourhood_group = Brooklyn and neighbourhood = Fort Greene
+What is the min floor when host_name = Florrie and neighbourhood_group = Brooklyn
+What is the min price when neighbourhood_group = Queens and room_type = Private room
+What is the max floor when host_name = Stat and neighbourhood_group = Brooklyn
+What is the mean price when room_type = Private room and host_name = Eric
+What is the mean floor when neighbourhood_group = Queens and neighbourhood = Bedford-Stuyvesant
+What is the mean floor when host_name = Paula and room_type = Private room
+What is the max floor when name = Lovely and quiet studio in Bushwick and host_name = Beata
+What is the max floor when neighbourhood = Upper West Side and name = comfy artsy cottage garden studio
+What is the min floor when neighbourhood_group = Manhattan and neighbourhood = Harlem
+What is the min floor when name = Plush Studio Apartment in Midtown West NYC and host_name = Olivier
+What is the mean floor when name = Charming Cozy Designer Home- Private House and host_name = Ethan
+What is the max price when name = Gorgeous Modern Manhattan Apt and room_type = Private room
+What is the min price when neighbourhood = Upper West Side and name = New, spacious 1.5 BR Apt Wburg,BK w/ private patio
+What is the mean floor when host_name = Leslie and name = Two bedroom apartment with all amenities
+What is the max floor when room_type = Private room and neighbourhood_group = Queens
+What is the max floor when name = *SoHo: Clean, Safe, Private, Peaceful Bedroom (A)* and host_name = Autumn
+What is the max floor when room_type = Entire home/apt and neighbourhood = Sunnyside
+What is the mean floor when neighbourhood = Greenpoint and host_name = Bobby
+What is the min floor when neighbourhood_group = Manhattan and name = Doorman 2 Windows City View Studio GYM W&D 5199
+What is the min floor when room_type = Entire home/apt and name = Upper West Side 1 Bedroom Apt near Central Park
+What is the max price when host_name = Hea and room_type = Entire home/apt
+What is the max floor when room_type = Private room and neighbourhood = Financial District
+What is the min floor when neighbourhood = Williamsburg and host_name = Samuel
+What is the min price when host_name = Ronald and neighbourhood_group = Brooklyn
+What is the max floor when host_name = Daniel and neighbourhood_group = Brooklyn
+What is the mean floor when name = Convenient Gem in Midtown East and neighbourhood_group = Brooklyn
+What is the max floor when name = DEBBIE'S COZY RETREAT and neighbourhood_group = Manhattan
+What is the mean floor when neighbourhood = Washington Heights and room_type = Entire home/apt
+What is the min floor when name = Brooklyn Basement and room_type = Entire home/apt
+What is the max price when neighbourhood = Bay Ridge and name = Artful UWS Room-2 Double Beds Near Central Park
+What is the mean price when neighbourhood = Bay Ridge and room_type = Private room
+What is the min floor when neighbourhood = Brooklyn Heights and neighbourhood_group = Brooklyn
+What is the min price when neighbourhood_group = Manhattan and neighbourhood = East Village
+What is the mean floor when host_name = Ashton and room_type = Entire home/apt
+What is the mean price when neighbourhood = Murray Hill and neighbourhood_group = Brooklyn
+What is the mean price when room_type = Entire home/apt and host_name = Hannah
+What is the min price when room_type = Private room and host_name = Inbar
+What is the max price when room_type = Private room and host_name = Ha
+What is the max floor when room_type = Private room and neighbourhood_group = Manhattan
+What is the min floor when neighbourhood_group = Brooklyn and neighbourhood = Brooklyn Heights
+What is the min price when host_name = Jessie and neighbourhood = Prospect-Lefferts Gardens
+What is the min floor when host_name = Marcus and name = The Perfect Studio in Brooklyn
+What is the mean floor when neighbourhood = Bushwick and room_type = Entire home/apt
+What is the min floor when neighbourhood = Prospect Heights and name = Private Bed n Bath w/ Breakfast and Taxi!
+What is the mean floor when neighbourhood = Prospect Heights and host_name = Conchita
+What is the mean price when name = Private Studio Upper East Side and room_type = Entire home/apt
+What is the min floor when host_name = Lillian and neighbourhood_group = Manhattan
+What is the mean floor when neighbourhood_group = Queens and host_name = Sam
+What is the max price when host_name = Alexis and name = Sun-drenched apartment in Washington Heights
+What is the mean floor when host_name = Kizzie and neighbourhood = East Village
+What is the min floor when room_type = Private room and name = Charming UWS Studio Loft
+What is the mean floor when room_type = Private room and neighbourhood = Williamsburg
+What is the min price when room_type = Private room and host_name = Kimberly
+What is the max price when room_type = Private room and host_name = Lugao
+What is the mean floor when neighbourhood_group = Manhattan and host_name = Yukee
+What is the min floor when name = Amazing room in uptown Manhattan and host_name = Daniel
+What is the max price when neighbourhood = Williamsburg and name = L Bright & Cozy & Modern room 30 mins to Manhattan
+What is the max price when neighbourhood_group = Manhattan and neighbourhood = Williamsburg
+What is the mean floor when name = Spacious Brownstone Home in Prospect Heights and room_type = Private room
+What is the min floor when host_name = Richard and neighbourhood_group = Brooklyn
+What is the max price when room_type = Private room and name = East Harlem Pied A Terre
+What is the max floor when name = Trendy Soho Apartment and host_name = Chiarra
+What is the mean price when room_type = Entire home/apt and host_name = Alankrit
+What is the mean price when host_name = Anthony and name = well lit East Williamsburg apt.
+What is the max floor when name = Huge, Bright Room in Prime Williamsburg and host_name = Sara
+What is the max floor when host_name = Blueground and name = CentralPark/ Upper west /Columbia University

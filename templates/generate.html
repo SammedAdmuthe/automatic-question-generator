@@ -1,5 +1,16 @@
-<h1>Question List</h1>
 
-{% for item in questionList %}
-    <p>{{item}}</p>
-{% endfor %}
+<!DOCTYPE html>
+<html>
+    <title>
+        Test Application
+    </title>
+    <body>
+        <h1>Question List</h1>
+
+        {% for item in questionList %}
+            <p>{{item}}</p>
+        {% endfor %}
+
+        <a href="file:///Users/sammedadmuthe/Documents/SimpleTest/questions_list.csv" download target="_blank">Download</a>
+    </body>
+</html>

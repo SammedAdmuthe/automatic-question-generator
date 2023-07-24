@@ -1,0 +1,14 @@
+What is the mean floor when host_name = Muslum and name = Very clean, quiet bedroom available
+What is the mean floor when room_type = Entire home/apt and neighbourhood_group = Manhattan
+What is the mean price when room_type = Entire home/apt and neighbourhood_group = Queens
+What is the mean floor when host_name = Ana Maria and name = Bright and spacious room two blocks from park!
+What is the min price when name = Gorgeous Modern Downtown Condo with Stunning Views and room_type = Private room
+What is the min price when name = Sun Drenched Gramercy/East Village! and room_type = Private room
+What is the min floor when neighbourhood = Crown Heights and neighbourhood_group = Manhattan
+What is the min price when neighbourhood_group = Brooklyn and room_type = Entire home/apt
+What is the max price when name = "Home sweet Home :) " and neighbourhood_group = Brooklyn
+What is the mean floor when neighbourhood_group = Brooklyn and room_type = Private room
+What is the mean price when neighbourhood_group = Brooklyn and neighbourhood = Murray Hill
+What is the min price when name = Private room w/ queen bed + rooftop and host_name = R, J
+What is the max floor when room_type = Entire home/apt and neighbourhood_group = Brooklyn
+What is the max floor when neighbourhood_group = Brooklyn and room_type = Private room
